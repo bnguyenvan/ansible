@@ -1,0 +1,9 @@
+---
+- name: Remove apache from servers
+  hosts: centos
+  become: yes
+  tasks:
+    - name: remove apache from server
+      yum:
+        name: httpd
+        state: absent

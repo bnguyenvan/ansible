@@ -1,0 +1,10 @@
+[ansible]
+ansible.home.lan
+
+[ubuntu]
+ubuntu-node1.home.lan
+ubuntu-node2.home.lan
+
+[centos]
+centos-node1.home.lan
+centos-node2.home.lan
