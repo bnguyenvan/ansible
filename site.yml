@@ -1,0 +1,9 @@
+---
+# This playbook deploy all site configs
+
+- name: apply base configuration to all centos
+  hosts: centos
+  remote_user: root
+  
+  roles:
+  - base

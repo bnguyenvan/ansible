@@ -1,6 +1,3 @@
-[ansible]
-ansible.home.lan
-
 [ubuntu]
 ubuntu-node1.home.lan
 ubuntu-node2.home.lan
